@@ -1,43 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Informações da Festa Julina</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <h1>Informações da Festa Julina</h1>
-        <h2>Colégio Barbosa Ferraz</h2>
-    </header>
-    
-    <main>
-        <section class="informacoes">
-            <h3>Detalhes do Evento</h3>
-            <p><strong>Data:</strong> 08 de Julho de 2025</p>
-            <p><strong>Local:</strong> Pátio do Colégio Barbosa Ferraz</p>
-            <p><strong>Horário:</strong> A partir das 18:00</p>
-            
-            <img src="festajunina.jpg" alt="Comidas típicas da Festa Julina" class="foto-informacoes">
-            
-            <h4>Programação:</h4>
-            <ul>
-                <li>Danças típicas</li>
-                <li>Comidas caipiras</li>
-                <li>Jogos e brincadeiras</li>
-                <li>Quadrilha organizada pelos alunos</li>
-                <li>Muita música e diversão!</li>
-            </ul>
-            
-            <p class="convite">Contamos com a presença de todos para tornar esta noite ainda mais especial!</p>
-        </section>
+    <div class="page-container">
+        <header>
+            <h1>Festa Julina 2024</h1>
+            <h2>Colégio Barbosa Ferraz</h2>
+        </header>
         
-        <a href="index.html" class="botao">Voltar para a página inicial</a>
-    </main>
-    
-    <footer>
-        <p>© 2025 Colégio Barbosa Ferraz - Todos os direitos reservados</p>
-    </footer>
+        <main>
+            <section class="info-content">
+                <h3>Informações do Evento</h3>
+                <div class="event-date">08 de Julho de 2024</div>
+                
+                <div class="details">
+                    <p><strong>Local:</strong> Pátio do Colégio</p>
+                    <p><strong>Horário:</strong> 18h às 23h</p>
+                </div>
+                
+                <img src="/festa_julina2.jpg" alt="Comidas típicas" loading="lazy">
+                
+                <div class="attractions">
+                    <h4>Atrações:</h4>
+                    <ul>
+                        <li>Quadrilha tradicional</li>
+                        <li>Barracas de comidas</li>
+                        <li>Brincadeiras caipiras</li>
+                    </ul>
+                </div>
+                
+                <!-- Player de Música Julina -->
+                <div class="music-player">
+                    <h4>Música Típica:</h4>
+                    <div class="video-container">
+                        <iframe 
+                            width="560" 
+                            height="315" 
+                            src="https://youtu.be/IAWkTqqTZOw?feature=shared" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <p class="music-note">Aproveite essa música típica de festa junina!</p>
+                </div>
+                
+                <p class="invite">Contamos com a presença de todos!</p>
+                
+                <a href="/index.html" class="btn">Voltar</a>
+            </section>
+        </main>
+        
+        <footer>
+            <p>© 2025 Colégio Barbosa Ferraz</p>
+        </footer>
+    </div>
 </body>
 </html>
