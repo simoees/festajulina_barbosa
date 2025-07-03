@@ -1,111 +1,105 @@
 
- {
+/* Reset básico */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f5e6c8;
+    background-color: #f9f3e6;
     color: #5c3a21;
 }
 
-.container {
-    max-width: 1000px;
+.page-container {
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
 header {
-    text-align: center;
-    padding: 20px 0;
     background-color: #8b4513;
     color: white;
+    text-align: center;
+    padding: 20px;
     margin-bottom: 30px;
     border-radius: 8px;
 }
 
-.event-info {
-    background-color: white;
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.main-content, .info-content {
+    background: white;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-}
-
-.highlight-date {
-    font-size: 1.5em;
-    color: #8b4513;
-    font-weight: bold;
     text-align: center;
-    margin: 15px 0;
 }
 
-.info-box {
-    background-color: #f9f3e9;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 15px 0;
-}
-
-.event-image {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+img {
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
     margin: 20px 0;
-    border: 4px solid #8b4513;
+    border: 3px solid #8b4513;
+}
+
+.btn {
+    display: inline-block;
+    background: #5c3a21;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.event-date {
+    font-size: 1.3rem;
+    color: #8b4513;
+    font-weight: bold;
+    margin: 15px 0;
 }
 
 .attractions {
-    margin: 25px 0;
+    margin: 20px 0;
+    text-align: left;
 }
 
-.attractions ul {
-    list-style-position: inside;
-    margin-top: 10px;
-}
-
-.invitation {
-    font-size: 1.1em;
-    text-align: center;
-    margin: 25px 0;
-    color: #8b4513;
+.invite {
     font-weight: bold;
-}
-
-.back-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #5c3a21;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px 0;
+    color: #8b4513;
+    margin: 20px 0;
 }
 
 footer {
     text-align: center;
-    padding: 15px;
     margin-top: 30px;
-    background-color: #5c3a21;
+    padding: 15px;
+    background: #5c3a21;
     color: white;
     border-radius: 8px;
 }
 
-
-@media (max-width: 768px) {
-    .container {
+@media (max-width: 600px) {
+    .page-container {
         padding: 10px;
     }
     
     header {
-        padding: 15px 0;
+        padding: 15px;
     }
     
-    .event-info {
+    .main-content, .info-content {
         padding: 15px;
     }
 }
