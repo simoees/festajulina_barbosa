@@ -1,87 +1,55 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informações da Festa Julina - Colégio Barbosa Ferraz</title>
+    <title>Informações da Festa Julina</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        /* Estilos específicos para esta página */
-        .container-info {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            align-items: center;
-        }
-        
-        .detalhes-evento {
-            background-color: #fff;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        
-        .data-destaque {
-            font-size: 1.5em;
-            color: #8b4513;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        
-        @media (max-width: 768px) {
-            .container-info {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>Festa Julina 2025</h1>
+    <div class="container">
+        <header>
+            <h1>Festa Julina 2024</h1>
             <h2>Colégio Barbosa Ferraz</h2>
-        </div>
-    </header>
-    
-    <main>
-        <div class="container-info">
-            <div class="detalhes-evento">
+        </header>
+
+        <main>
+            <section class="event-info">
                 <h3>Informações do Evento</h3>
-                <div class="data-destaque">08 de Julho de 2024</div>
+                <div class="highlight-date">08 de Julho de 2024</div>
                 
-                <p><strong>Local:</strong> Pátio do Colégio Barbosa Ferraz</p>
-                <p><strong>Horário:</strong> 18h às 23h</p>
-                <p><strong>Organização:</strong> Laís Victória</p>
-                
-                <h4>Atrações:</h4>
-                <ul>
-                    <li>Quadrilha tradicional</li>
-                    <li>Barracas de comidas típicas</li>
-                    <li>Jogos e brincadeiras caipiras</li>
-                    <li>Concurso de melhor traje</li>
-                    <li>Show de música sertaneja</li>
-                </ul>
-                
-                <div class="convite-especial">
+                <div class="info-box">
+                    <p><strong>Local:</strong> Pátio do Colégio Barbosa Ferraz</p>
+                    <p><strong>Horário:</strong> 18h às 23h</p>
+                    <p><strong>Organização:</strong> Laís Victória</p>
+                </div>
+
+                <img src="festajunina.jpg" alt="Festa Julina" class="event-image">
+
+                <div class="attractions">
+                    <h4>Atrações:</h4>
+                    <ul>
+                        <li>Quadrilha tradicional</li>
+                        <li>Barracas de comidas típicas</li>
+                        <li>Jogos e brincadeiras caipiras</li>
+                        <li>Concurso de melhor traje</li>
+                        <li>Show de música sertaneja</li>
+                    </ul>
+                </div>
+
+                <div class="invitation">
                     <p>Traga sua família e amigos para uma noite inesquecível!</p>
                     <p>Contamos com a presença de todos!</p>
                 </div>
-            </div>
-            
-            <div class="imagem-evento">
-                <img src="festajunina.jpg" alt="Festa Julina no Colégio Barbosa Ferraz" class="foto-informacoes">
-                <div class="legenda-foto">Venha se divertir conosco!</div>
-            </div>
-        </div>
-        
-        <div class="navegacao">
-            <a href="index.html" class="botao-voltar">← Voltar para a página inicial</a>
-        </div>
-    </main>
-    
-    <footer>
-        <p>Colégio Barbosa Ferraz © 2025 - Todos os direitos reservados</p>
-        <p>Organização: Laís Victória Simões de Oliveira</p>
-    </footer>
+            </section>
+
+            <a href="./index.html" class="back-button">Voltar para página inicial</a>
+        </main>
+
+        <footer>
+            <p>Colégio Barbosa Ferraz © 2024</p>
+            <p>Organização: Laís Victória</p>
+        </footer>
+    </div>
 </body>
 </html>
